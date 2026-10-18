@@ -12,7 +12,7 @@
   <a href="README.md">Read in English</a>
 </p>
 
-[![CI](https://github.com/GaetanGrd/Aeziol/actions/workflows/ci.yml/badge.svg)](https://github.com/GaetanGrd/Aeziol/actions/workflows/ci.yml)
+[![CI](https://github.com/ElgoCore/Aeziol/actions/workflows/ci.yml/badge.svg)](https://github.com/ElgoCore/Aeziol/actions/workflows/ci.yml)
 
 Aeziol est une application Windows 11 légère qui observe l’état vocal de Discord. Lorsqu’une connexion vocale commence, elle dirige la sortie audio globale de Windows vers la destination choisie. À la sortie complète du vocal, elle restaure exactement la route précédente.
 
@@ -42,7 +42,7 @@ Aeziol n’est ni un bot ni un selfbot. Il ne lit pas les messages, n’intercep
 
 ## Installation
 
-Les paquets destinés aux utilisateurs seront attachés aux [releases GitHub](https://github.com/GaetanGrd/Aeziol/releases). Une release marquée **Draft** est une préparation réservée à la validation et ne doit pas être distribuée comme version publique.
+Les paquets destinés aux utilisateurs seront attachés aux [releases GitHub](https://github.com/ElgoCore/Aeziol/releases). Une release marquée **Draft** est une préparation réservée à la validation et ne doit pas être distribuée comme version publique.
 
 Un MSIX public doit être signé. Vérifiez sa signature Windows ainsi que le fichier `.sha256` fourni avec la release avant installation.
 

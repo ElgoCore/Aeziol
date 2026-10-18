@@ -86,7 +86,7 @@ try {
     }
 
     Write-Host "Published $tag. GitHub Actions is building the package and creating a draft prerelease."
-    Write-Host "https://github.com/GaetanGrd/Aeziol/actions"
+    Write-Host "https://github.com/ElgoCore/Aeziol/actions"
 }
 finally {
     Pop-Location

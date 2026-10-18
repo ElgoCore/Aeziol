@@ -15,7 +15,7 @@ Merci de vouloir améliorer Aeziol. Le projet touche à la sortie audio globale 
 - Discord Desktop uniquement si le changement concerne l’intégration réelle.
 
 ```powershell
-git clone https://github.com/GaetanGrd/Aeziol.git
+git clone https://github.com/ElgoCore/Aeziol.git
 cd Aeziol
 dotnet restore Aeziol.slnx
 dotnet build Aeziol.slnx -c Release
