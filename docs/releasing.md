@@ -64,7 +64,11 @@ Ne placez jamais le PFX ou sa clé privée dans le dépôt ou dans une release. 
 version destinée au grand public doit employer une signature reconnue par
 Windows, par exemple via le Microsoft Store ou un service de signature de code.
 
-L’identité `GaetanGrd.Aeziol` et l’éditeur du certificat doivent rester identiques entre les versions pour que Windows reconnaisse une mise à jour et préserve les données utilisateur.
+L’identité `GaetanGrd.Aeziol` et l’éditeur du certificat doivent rester identiques entre les versions pour que Windows reconnaisse une mise à jour et préserve les données utilisateur. Le transfert du dépôt vers `ElgoCore/Aeziol` ne change donc ni l’identité du package, ni le nom du publisher, ni les secrets de signature, qui restent attachés au dépôt.
+
+## Adresse du dépôt et mises à jour
+
+Le système de mise à jour interroge `https://api.github.com/repos/ElgoCore/Aeziol/releases`. Après le transfert du 18 octobre 2026, l’ancienne adresse `GaetanGrd/Aeziol` répond par une redirection vers l’identifiant stable du dépôt, que le client suit. Cette redirection disparaît définitivement si un dépôt est recréé à l’ancien nom : ne jamais en créer un. À cette date, seule la draft `v0.9.0-beta.1` existe ; aucune release publique n’est donc visible du système de mise à jour.
 
 ## Versionnement
 

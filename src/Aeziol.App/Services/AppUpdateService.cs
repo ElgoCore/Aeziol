@@ -101,7 +101,7 @@ internal sealed class AppUpdateService
     private const long MaximumPackageBytes = 512L * 1024 * 1024;
     private const int MaximumChecksumBytes = 4096;
     private static readonly Uri DefaultReleasesUri = new(
-        "https://api.github.com/repos/GaetanGrd/Aeziol/releases?per_page=30");
+        "https://api.github.com/repos/ElgoCore/Aeziol/releases?per_page=30");
     private static readonly JsonSerializerOptions JsonOptions = new(JsonSerializerDefaults.Web);
     private readonly HttpClient _httpClient;
     private readonly string _updatesDirectory;

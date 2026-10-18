@@ -12,7 +12,7 @@
   <a href="README.fr.md">Lire en français</a>
 </p>
 
-[![CI](https://github.com/GaetanGrd/Aeziol/actions/workflows/ci.yml/badge.svg)](https://github.com/GaetanGrd/Aeziol/actions/workflows/ci.yml)
+[![CI](https://github.com/ElgoCore/Aeziol/actions/workflows/ci.yml/badge.svg)](https://github.com/ElgoCore/Aeziol/actions/workflows/ci.yml)
 
 Aeziol is a lightweight Windows 11 application that observes Discord voice state. When a voice connection begins, it routes the global Windows audio output to the selected destination. After leaving voice completely, it restores the exact route that was active before the switch.
 
@@ -42,7 +42,7 @@ Aeziol is neither a bot nor a selfbot. It does not read messages, intercept Disc
 
 ## Installation
 
-User packages are attached to [GitHub releases](https://github.com/GaetanGrd/Aeziol/releases). A release marked **Draft** is reserved for validation and must not be distributed as a public version.
+User packages are attached to [GitHub releases](https://github.com/ElgoCore/Aeziol/releases). A release marked **Draft** is reserved for validation and must not be distributed as a public version.
 
 A public MSIX package must be signed. Verify its Windows signature and the accompanying `.sha256` file before installation.
 

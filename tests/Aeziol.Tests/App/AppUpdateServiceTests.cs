@@ -44,7 +44,7 @@ public sealed class AppUpdateServiceTests : IDisposable
                 "tag_name": "v1.1.0-beta.2",
                 "draft": false,
                 "prerelease": true,
-                "html_url": "https://github.com/GaetanGrd/Aeziol/releases/tag/v1.1.0-beta.2",
+                "html_url": "https://github.com/ElgoCore/Aeziol/releases/tag/v1.1.0-beta.2",
                 "assets": [
                   { "name": "Aeziol-1.1.0-beta.2-x64.msix", "browser_download_url": "https://github.com/download/beta.msix" },
                   { "name": "Aeziol-1.1.0-beta.2-x64.msix.sha256", "browser_download_url": "https://github.com/download/beta.sha256" }
@@ -54,7 +54,7 @@ public sealed class AppUpdateServiceTests : IDisposable
                 "tag_name": "v1.0.1",
                 "draft": false,
                 "prerelease": false,
-                "html_url": "https://github.com/GaetanGrd/Aeziol/releases/tag/v1.0.1",
+                "html_url": "https://github.com/ElgoCore/Aeziol/releases/tag/v1.0.1",
                 "assets": [
                   { "name": "Aeziol-1.0.1-x64.msix", "browser_download_url": "https://github.com/download/stable.msix" },
                   { "name": "Aeziol-1.0.1-x64.msix.sha256", "browser_download_url": "https://github.com/download/stable.sha256" }
@@ -81,14 +81,14 @@ public sealed class AppUpdateServiceTests : IDisposable
                 "tag_name": "v2.0.0-beta.9",
                 "draft": true,
                 "prerelease": true,
-                "html_url": "https://github.com/GaetanGrd/Aeziol/releases/tag/v2.0.0-beta.9",
+                "html_url": "https://github.com/ElgoCore/Aeziol/releases/tag/v2.0.0-beta.9",
                 "assets": []
               },
               {
                 "tag_name": "v1.2.0-beta.2",
                 "draft": false,
                 "prerelease": true,
-                "html_url": "https://github.com/GaetanGrd/Aeziol/releases/tag/v1.2.0-beta.2",
+                "html_url": "https://github.com/ElgoCore/Aeziol/releases/tag/v1.2.0-beta.2",
                 "assets": [
                   { "name": "Aeziol-1.2.0-beta.2-x64.msix", "browser_download_url": "https://github.com/download/beta.msix" },
                   { "name": "Aeziol-1.2.0-beta.2-x64.msix.sha256", "browser_download_url": "https://github.com/download/beta.sha256" }
@@ -98,7 +98,7 @@ public sealed class AppUpdateServiceTests : IDisposable
                 "tag_name": "v1.3.0-beta.1",
                 "draft": false,
                 "prerelease": true,
-                "html_url": "https://github.com/GaetanGrd/Aeziol/releases/tag/v1.3.0-beta.1",
+                "html_url": "https://github.com/ElgoCore/Aeziol/releases/tag/v1.3.0-beta.1",
                 "assets": [
                   { "name": "Aeziol-1.3.0-beta.1-x64.msix", "browser_download_url": "https://github.com/download/incomplete.msix" }
                 ]
@@ -165,7 +165,7 @@ public sealed class AppUpdateServiceTests : IDisposable
         new ReleaseVersion(1, 0, 1, null),
         "v1.0.1",
         false,
-        new Uri("https://github.com/GaetanGrd/Aeziol/releases/tag/v1.0.1"),
+        new Uri("https://github.com/ElgoCore/Aeziol/releases/tag/v1.0.1"),
         new Uri("https://github.com/download/Aeziol-1.0.1-x64.msix"),
         new Uri("https://github.com/download/Aeziol-1.0.1-x64.msix.sha256"),
         "Aeziol-1.0.1-x64.msix");

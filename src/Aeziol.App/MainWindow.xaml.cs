@@ -21,7 +21,7 @@ namespace Aeziol.App;
 [SuppressMessage("Design", "CA1001:Types that own disposable fields should be disposable", Justification = "WPF owns the window lifecycle; disposable fields are released from OnClosed.")]
 public partial class MainWindow : Window
 {
-    private const string ProjectUrl = "https://github.com/GaetanGrd/Aeziol";
+    private const string ProjectUrl = "https://github.com/ElgoCore/Aeziol";
     private const int AutomationContextFadeDurationMilliseconds = 240;
     private const int AutomationResizeDurationMilliseconds = 280;
     private const int AutomationCicadaExitDurationMilliseconds = 220;

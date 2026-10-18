@@ -12,7 +12,8 @@ Ce fichier suit les principes de [Keep a Changelog](https://keepachangelog.com/f
 
 ### Modifié
 
-- crédit de la musique « Onde dorée » attribué uniquement à Suno dans l’interface et la documentation.
+- crédit de la musique « Onde dorée » attribué uniquement à Suno dans l’interface et la documentation ;
+- le dépôt est désormais `ElgoCore/Aeziol` : liens du projet, badge CI, avis de sécurité et adresse d’API du système de mise à jour pointent vers cette adresse. Les anciennes adresses `GaetanGrd/Aeziol` redirigent ; l’identité du package MSIX, l’éditeur de signature et les crédits restent inchangés.
 
 ### Prévu
 
@@ -38,5 +39,5 @@ Ce fichier suit les principes de [Keep a Changelog](https://keepachangelog.com/f
 - rotation et assainissement des journaux avant partage ;
 - priorité systématique aux changements audio manuels de l’utilisateur.
 
-[Non publié]: https://github.com/GaetanGrd/Aeziol/compare/v0.9.0-beta.1...HEAD
-[0.9.0-beta.1]: https://github.com/GaetanGrd/Aeziol/releases/tag/v0.9.0-beta.1
+[Non publié]: https://github.com/ElgoCore/Aeziol/compare/v0.9.0-beta.1...HEAD
+[0.9.0-beta.1]: https://github.com/ElgoCore/Aeziol/releases/tag/v0.9.0-beta.1

@@ -8,7 +8,7 @@ Pendant la bêta, seule la dernière version publiée reçoit des correctifs de 
 
 N’ouvrez pas d’issue publique contenant une vulnérabilité, un jeton, un journal non relu ou une méthode d’exploitation.
 
-Utilisez de préférence un [avis de sécurité privé GitHub](https://github.com/GaetanGrd/Aeziol/security/advisories/new). Incluez :
+Utilisez de préférence un [avis de sécurité privé GitHub](https://github.com/ElgoCore/Aeziol/security/advisories/new). Incluez :
 
 - la version d’Aeziol et de Windows ;
 - les étapes minimales de reproduction ;
